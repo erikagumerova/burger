@@ -57,19 +57,19 @@ h1 span {
     color: #1E2F40;
     background-color: #FBB731;
     border-radius: 5px;
-    width: 60%;
+    width: max-content;
     margin: 0 auto;
     text-decoration: none;
-    padding: 2% 3%;
+    padding: 4% 5%;
     text-transform: uppercase;
-    font-size: 2em;
+    font-size: 1.8em;
     font-weight: 700;
     font-display: block;
     text-align: center;
 }
 
 .main a {
-    font-size: 2em;
+    font-size: 1.8em;
     font-display: block;
 }
 
@@ -86,18 +86,24 @@ h1 span {
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 0%;
+    z-index: 1;
 }
 /* .bg {
     width: 100%;
     height: 30px;
     position: relative;
-    top: 150px;
+    margin: 0%;
+    top: 200px;
     background: linear-gradient(2.42deg, #F37335 -19.6%, #FBB731 100.79%, #FDC830 100.79%);
+    z-index: 2;
+    padding: 0;
 } */
+
 .main img {
     width: 350px;
     margin: 0 auto;
     padding: 0;
+    z-index: 3;
 }
 
 .promo-left,
@@ -140,7 +146,7 @@ h1 span {
     font-family: 'Lato', sans-serif;
     color: #FAF9F9;
     font-size: 1em;
-    line-height: 1.3em;
+    line-height: 1.4em;
 }
 .promo-left .description {
     max-width: 392px;
@@ -172,19 +178,21 @@ h1 span {
     font-size: 20px;
     font-weight: 800;
     text-transform: uppercase;
-    margin-bottom: 12px;
+    margin-bottom: 5px;
+    margin-top: 10px;
 }
 .item ul,
 .tel ul {
     list-style-type: none;
 }
-.item li {
+.item li, .item address {
     margin-bottom: 9px;
     font-family: 'Lato', sans-serif;
     font-size: 15px;
     color: #FAF9F9;
     font-weight: 700;
     line-height: 24px;
+    font-style: normal;
 }
 .item a {
     color: #DEDEDE;
@@ -197,14 +205,18 @@ h1 span {
     font-weight: 400;
     margin-bottom: 2px;
 }
-.tel ul {
+.tel ul li a {
     font-size: 20px;
     color: #FBB731;
+    text-decoration: none;
 }
-.tel li {
+.tel ul li {
     margin-bottom: 12px;
 }
 
+.tel ul {
+    margin-top: 15px;
+}
 
 .promo {
     margin: 0;

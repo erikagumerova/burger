@@ -147,7 +147,7 @@ h1 span {
 .tel ul {
     list-style-type: none;
 }
-.item li {
+.item li, .item address  {
     margin-bottom: 9px;
     font-family: 'Lato', sans-serif;
     font-size: 15px;
@@ -166,10 +166,16 @@ h1 span {
     font-weight: 400;
     margin-bottom: 2px;
 }
-.tel ul {
+.tel ul li a {
     font-size: 20px;
     color: #FBB731;
+    text-decoration: none;
 }
 .tel li {
     margin-bottom: 12px;
+}
+
+.tel ul {
+    font-size: 20px;
+    color: #FBB731;
 }
