@@ -39,7 +39,7 @@ h1 {
 }
 h1 span {
     color: #FBB731;
-    font-size: 0.4em;
+    font-size: 0.3em;
     font-weight: 700;
     line-height: 1.4;
     display: block;
@@ -60,7 +60,7 @@ h1 span {
     width: 60%;
     margin: 0 auto;
     text-decoration: none;
-    padding: 3%;
+    padding: 2% 3%;
     text-transform: uppercase;
     font-size: 2em;
     font-weight: 700;
@@ -74,7 +74,7 @@ h1 span {
 }
 
 .promo a {
-    font-size: 1.1em;
+    font-size: 1.2em;
     font-display: block;
     padding: 2%;
 }
@@ -147,11 +147,11 @@ h1 span {
 }
 .promo-right .description {
     max-width: 300px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 .free {
     font-size: 44px;
-    font-weight: 700;
+    font-weight: 800;
     margin-bottom: 10px;
 }
 .footer {
